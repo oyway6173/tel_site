@@ -1,0 +1,254 @@
+form{
+  width: 1000px;
+}
+
+.card {
+  width: 32%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.square_btn {
+  display: inline-block;
+  padding: 0.4em 1em;
+  text-decoration: none;
+  color: #b00d23;
+  border: solid 2px #b00d23;
+  border-radius: 3px;
+  transition: .4s;
+  background: white;
+}
+.square_btn:hover {
+  background: #b00d23;
+  color: white;
+}
+
+.dropbtn {
+    background-color: white;
+    color: #34404b;
+    padding: 10px 15px 7px;
+    font-size: 16px;
+    border: none;
+}
+
+.form-label{
+  margin-left: 5px;
+  float: left;
+}
+
+.warning-label {
+  margin-bottom: auto;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: #b00d23;}
+
+.new-user{
+  margin-top: 10px;
+  text-align: -webkit-center;
+}
+
+footer{
+  background: white;
+}
+
+.confirm_btn {
+  width: 30%;
+  display: inline-block;
+  padding: 0.4em 1em;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #b00d23;
+  border: solid 2px #b00d23;
+  background-color: inherit;
+  border-radius: 3px;
+  transition: .4s;
+}
+.confirm_btn:hover {
+  background: #b00d23;
+  color: white;
+}
+
+.section-title__empl-big {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-title__empl-big span {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "OpenSansExtraBold", Arial, sans-serif;
+}
+.section-title__red {
+  color: #b00d23;
+}
+
+.limit{
+  min-height: 400px;
+}
+
+.header__login-adm:hover{
+  color: #b00d23;
+}
+
+.icon-link {
+  font-size: 1.143rem;
+  color: #b00d23;
+}
+
+.banner-big__price:hover {
+  color: black;
+}
+
+.icon-link:hover {
+  color: black;
+}
+
+option:hover {
+  background: #b00d23;
+}
+
+.div_diagram{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: #ecf5e4;
+  border: 25px solid #95cd8b;
+  border-right: 25px solid #d0e6bb;
+  border-radius: 50%;
+}
+.p_diagram {
+  position: absolute;
+  font-size: 40px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.span_diagram { font-size: 25px }
+
+.chart-text {
+  /*font: 16px/1.4em "Montserrat", Arial, sans-serif;*/
+  fill: #000;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+.chart-number {
+  font-size: 0.6em;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+.chart-label {
+  font-size: 0.2em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(0.7em);
+}
+figure {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  figure {
+    flex-direction: row;
+  }
+}
+.figure-content,
+.figure-key {
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-self: center;
+}
+.figure-content svg {
+  height: auto;
+}
+.figure-key {
+  min-width: calc(8 / 12);
+}
+.figure-key [class*="shape-"] {
+  margin-right: 6px;
+}
+.figure-key-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.figure-key-list li {
+  margin: 0 0 8px;
+  padding: 0;
+}
+.shape-circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+.shape-fuschia {
+  background-color: #ce4b99;
+}
+.shape-lemon-lime {
+  background-color: #b1c94e;
+}
+.shape-blue {
+  background-color: #377bbc;
+}
+.shape-gray {
+  background-color: #d2d3d4;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
